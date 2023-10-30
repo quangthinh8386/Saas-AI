@@ -1,4 +1,5 @@
 import Topbar from '@/components/topbar'
+import { cn } from '@/lib/utils'
 import React from 'react'
 
 const DashboardLayout = (props: {
@@ -9,6 +10,11 @@ const DashboardLayout = (props: {
             <header>
                 <Topbar />
             </header>
+            <main className={cn(
+                "bg-gray-950 overflow-hidden pl-80 pr-7 py-7 [&:has([is-navbar-minimal])]:pl-20"
+            )}>
+
+            </main>
             {props.children}
         </div>
     )
