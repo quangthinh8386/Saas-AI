@@ -13,7 +13,7 @@ const Topbar = () => {
 
   return (
     <div className={cn(
-      "flex items-center p-4 justify-between sticky top-0"
+      "flex items-center p-4 justify-between sticky top-0 hidden"
     )}>
       <Logo />
       <Button

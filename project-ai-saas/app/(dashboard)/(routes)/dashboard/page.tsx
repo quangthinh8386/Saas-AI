@@ -6,7 +6,7 @@ const DasdboardPage = () => {
         <div>
             dashboard page
             <div>
-                <UserButton></UserButton>
+                <UserButton> </UserButton>
             </div>
         </div>
     )
