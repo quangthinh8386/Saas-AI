@@ -5,9 +5,6 @@ const DasdboardPage = () => {
     return (
         <div>
             dashboard page
-            <div>
-                <UserButton> </UserButton>
-            </div>
         </div>
     )
 }

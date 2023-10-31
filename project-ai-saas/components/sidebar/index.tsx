@@ -30,7 +30,7 @@ const Sidebar: React.FC<SidebarProps> = ({
             "text-white",
             className
         )}>
-            <div className="lg:h-20 lg:pl-7 lg:pr-6">
+            <div className="h-20 pl-7 pr-6">
                 <div className="flex items-center justify-between w-full">
                     {
                         !isMinimal && <Logo />
@@ -38,11 +38,11 @@ const Sidebar: React.FC<SidebarProps> = ({
                     <SidebarToggle />
                 </div>
             </div>
-            <div className="lg:grow lg:overflow-y-auto lg:scroll-smooth lg:scrollbar-none">
+            <div className="grow overflow-y-auto scroll-smooth scrollbar-none">
                 <Navbar />
             </div>
             <div className={cn(
-                "fixed bottom-8 left-4 right-4 lg:left-7 lg:right-auto",
+                "fixed bottom-8 left-4 right-4 lg:left-3 lg:right-auto",
                 isMinimal && "lg:left-3"
             )}>
                 <div className='mb-4 p-4 rounded-lg bg-gray-900'>
@@ -71,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                                     />
                                 </div>
                             }
-                            <SubcriptionButton isProPlan={isProPlan} />
+                            <SubcriptionButton isPro={isProPlan} />
                         </div>
                     }
                 </div>
