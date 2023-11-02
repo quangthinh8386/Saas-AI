@@ -28,7 +28,7 @@ const Navbar = () => {
               )}>
                 <div className="flex items-center p-2">
                   <div>
-                    <LayoutDashboard size={20} />
+                    <LayoutDashboard size={20} color='#d10000'/>
                   </div>
                   {
                     !isMinimal &&

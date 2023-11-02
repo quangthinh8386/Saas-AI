@@ -13,10 +13,39 @@ export const THEME_MODES = [
     }
 ]
 
+export const TOOL = [
+    {
+        title: 'Conversation',
+        url: '/conversation',
+        slug: 'conversation'
+    },
+    {
+        title: 'Photo generator',
+        url: '/photo',
+        slug: 'photo'
+    },
+    {
+        title: 'Video generator',
+        url: '/video',
+        slug: 'video'
+    },
+    {
+        title: 'Audio generator',
+        url: '/audio',
+        slug: 'audio'
+    },
+    {
+        title: 'Code generator',
+        url: '/code',
+        slug: 'code'
+    }
+]
+
 export const NAVIGATIONS = [
     {
         title: "Dashboard",
         url: '/dashboard',
         slug: 'dashboard'
-    }
+    },
+    ...TOOL
 ]
