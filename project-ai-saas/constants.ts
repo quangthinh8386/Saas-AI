@@ -16,7 +16,7 @@ export const THEME_MODES = [
 export const NAVIGATIONS = [
     {
         title: 'Dashboard',
-        icon: '/public/Dashboard.svg',
+        icon: 'Dashboard',
         url: '/dashboard',
         slug: 'dashboard'
     }
