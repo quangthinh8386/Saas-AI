@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className='pr-20'>
       {
-        NAVIGATIONS.map(({ title, url }) =>
+        NAVIGATIONS.map(({ title, url, icon }) =>
           <div key={url} className="mb-2">
             <Link href={url} onClick={handleClose}>
               <div className={cn(
@@ -28,7 +28,7 @@ const Navbar = () => {
               )}>
                 <div className="flex items-center p-2">
                   <div>
-                    <LayoutDashboard size={20} color='#d10000'/>
+                    {icon && React.createElement(icon, { size: 20 })}
                   </div>
                   {
                     !isMinimal &&
