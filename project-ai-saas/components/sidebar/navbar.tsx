@@ -15,7 +15,7 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <div className='pr-20'>
+    <div className='pr-5'>
       {
         NAVIGATIONS.map(({ title, url, icon }) =>
           <div key={url} className="mb-2">

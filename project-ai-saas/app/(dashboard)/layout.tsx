@@ -22,7 +22,7 @@ const DashboardLayout = (props: {
                     userLimitCount={userLimitCount}
                     isProPlan={isProPlan}
                     className={cn(
-                        "fixed left-10 z-20 w-80 hidden [&:has([is-navbar-minimal])]:w-fit",
+                        "fixed left-2 z-20 w-80 hidden [&:has([is-navbar-minimal])]:w-fit",
                         "lg:block"
                     )}
                 />

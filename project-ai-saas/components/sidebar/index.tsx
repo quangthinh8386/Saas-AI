@@ -71,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                                     />
                                 </div>
                             }
-                            <SubcriptionButton isPro={isProPlan} />
+                            <SubcriptionButton isProPlan={isProPlan} />
                         </div>
                     }
                 </div>
